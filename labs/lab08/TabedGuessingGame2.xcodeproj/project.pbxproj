@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9040DC0623E0F923003D7245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040DC0523E0F923003D7245 /* AppDelegate.swift */; };
+		9040DC0823E0F923003D7245 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9040DC0723E0F923003D7245 /* SceneDelegate.swift */; };
+		9040DC0D23E0F923003D7245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9040DC0B23E0F923003D7245 /* Main.storyboard */; };
+		9040DC0F23E0F924003D7245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9040DC0E23E0F924003D7245 /* Assets.xcassets */; };
+		9040DC1223E0F924003D7245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9040DC1023E0F924003D7245 /* LaunchScreen.storyboard */; };
+		905148D923EA38E900ACBE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905148D823EA38E900ACBE2A /* ViewController.swift */; };
+		905148DB23EA3C4400ACBE2A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905148DA23EA3C4400ACBE2A /* HistoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9040DC0223E0F923003D7245 /* TabedGuessingGame2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabedGuessingGame2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9040DC0523E0F923003D7245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9040DC0723E0F923003D7245 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9040DC0C23E0F923003D7245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9040DC0E23E0F924003D7245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9040DC1123E0F924003D7245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9040DC1323E0F924003D7245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905148D823EA38E900ACBE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		905148DA23EA3C4400ACBE2A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9040DBFF23E0F923003D7245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9040DBF923E0F923003D7245 = {
+			isa = PBXGroup;
+			children = (
+				9040DC0423E0F923003D7245 /* TabedGuessingGame2 */,
+				9040DC0323E0F923003D7245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9040DC0323E0F923003D7245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9040DC0223E0F923003D7245 /* TabedGuessingGame2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9040DC0423E0F923003D7245 /* TabedGuessingGame2 */ = {
+			isa = PBXGroup;
+			children = (
+				9040DC0523E0F923003D7245 /* AppDelegate.swift */,
+				9040DC0723E0F923003D7245 /* SceneDelegate.swift */,
+				9040DC0B23E0F923003D7245 /* Main.storyboard */,
+				905148DA23EA3C4400ACBE2A /* HistoryViewController.swift */,
+				905148D823EA38E900ACBE2A /* ViewController.swift */,
+				9040DC0E23E0F924003D7245 /* Assets.xcassets */,
+				9040DC1023E0F924003D7245 /* LaunchScreen.storyboard */,
+				9040DC1323E0F924003D7245 /* Info.plist */,
+			);
+			path = TabedGuessingGame2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9040DC0123E0F923003D7245 /* TabedGuessingGame2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9040DC1623E0F924003D7245 /* Build configuration list for PBXNativeTarget "TabedGuessingGame2" */;
+			buildPhases = (
+				9040DBFE23E0F923003D7245 /* Sources */,
+				9040DBFF23E0F923003D7245 /* Frameworks */,
+				9040DC0023E0F923003D7245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabedGuessingGame2;
+			productName = lab05;
+			productReference = 9040DC0223E0F923003D7245 /* TabedGuessingGame2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9040DBFA23E0F923003D7245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "C323 / Spring 2020";
+				TargetAttributes = {
+					9040DC0123E0F923003D7245 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9040DBFD23E0F923003D7245 /* Build configuration list for PBXProject "TabedGuessingGame2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9040DBF923E0F923003D7245;
+			productRefGroup = 9040DC0323E0F923003D7245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9040DC0123E0F923003D7245 /* TabedGuessingGame2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9040DC0023E0F923003D7245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9040DC1223E0F924003D7245 /* LaunchScreen.storyboard in Resources */,
+				9040DC0F23E0F924003D7245 /* Assets.xcassets in Resources */,
+				9040DC0D23E0F923003D7245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9040DBFE23E0F923003D7245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905148D923EA38E900ACBE2A /* ViewController.swift in Sources */,
+				9040DC0623E0F923003D7245 /* AppDelegate.swift in Sources */,
+				9040DC0823E0F923003D7245 /* SceneDelegate.swift in Sources */,
+				905148DB23EA3C4400ACBE2A /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9040DC0B23E0F923003D7245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9040DC0C23E0F923003D7245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9040DC1023E0F924003D7245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9040DC1123E0F924003D7245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9040DC1423E0F924003D7245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9040DC1523E0F924003D7245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9040DC1723E0F924003D7245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabedGuessingGame2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.c323-yiwzhu.TabedGuessingGame2";
+				PRODUCT_NAME = TabedGuessingGame2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9040DC1823E0F924003D7245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TabedGuessingGame2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.c323-yiwzhu.TabedGuessingGame2";
+				PRODUCT_NAME = TabedGuessingGame2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9040DBFD23E0F923003D7245 /* Build configuration list for PBXProject "TabedGuessingGame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9040DC1423E0F924003D7245 /* Debug */,
+				9040DC1523E0F924003D7245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9040DC1623E0F924003D7245 /* Build configuration list for PBXNativeTarget "TabedGuessingGame2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9040DC1723E0F924003D7245 /* Debug */,
+				9040DC1823E0F924003D7245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9040DBFA23E0F923003D7245 /* Project object */;
+}

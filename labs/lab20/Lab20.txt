@@ -1,0 +1,15 @@
+04-02-2020 yiwzhu
+Yiwei Zhu yiwzhu@iu.edu
+
+
+In our foraging game, we want to achieve several functionalities, 
+we want each player to have the option to make and join private/public rooms 
+friends/other players created,walking freely in the room, chat with other 
+players in real times, and to send and receive direct messages to/from other players.
+
+The functionalities are important because it is a way of virtual interactions with 
+other people, and this app is like providing a platform for users to achieve such goals.
+
+The main prupose of the app is to create a virtual space for people that they can do 
+whatever they want. All the functionalities we want to provide are surrounding a single point, 
+which is to make everything easier and smoother for the user, which we plan to use some UI designs.

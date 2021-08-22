@@ -1,0 +1,4 @@
+Lab 13   yiwzhu@iu.edu
+Yiwei Zhu
+
+Today, learned a little about how to make tables using swift, as well as change the titles and subtitles of the row.
